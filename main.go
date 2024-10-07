@@ -11,10 +11,9 @@ import (
 
 // Estructura para almacenar los detalles del producto
 type Producto struct {
-	Titulo         string `json:"titulo"`
-	Descuento      string `json:"descuento"`
-	Detalles       string `json:"detalles"`
-	Disponibilidad string `json:"disponibilidad"`
+	Titulo    string `json:"Titulo"`
+	Descuento string `json:"Descuento"`
+	Duracion  string `json:"Duracion"`
 }
 
 func obtenerProductos(c *gin.Context) {
@@ -56,23 +55,16 @@ func obtenerProductos(c *gin.Context) {
 		}
 
 		// Extrae los detalles adicionales
-		detalles := strings.TrimSpace(s.Find("span.badge.d-block-inline.ml-1.badge-dark.badge-pill").Text())
-		if detalles == "" {
-			detalles = "No disponible"
-		}
-
-		// Extrae la disponibilidad del producto
-		disponibilidad := strings.TrimSpace(s.Find("span.guata-disp").Text())
-		if disponibilidad == "" {
-			disponibilidad = "No disponible"
+		duracion := strings.TrimSpace(s.Find("span.badge.d-block-inline.ml-1.badge-dark.badge-pill").Text())
+		if duracion == "" {
+			duracion = "No disponible"
 		}
 
 		// Agrega los datos del producto a la lista
 		productos = append(productos, Producto{
-			Titulo:         titulo,
-			Descuento:      descuento,
-			Detalles:       detalles,
-			Disponibilidad: disponibilidad,
+			Titulo:    titulo,
+			Descuento: descuento,
+			Duracion:  duracion,
 		})
 	})
 
