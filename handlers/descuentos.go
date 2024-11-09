@@ -12,6 +12,7 @@ import (
 type DescuentoWS struct {
 	ID             int    `json:"ID"`
 	Titulo         string `json:"Titulo"`
+	Liked          bool   `json:"liked"`
 	Categoria      string `json:"Categoria"`
 	Descripcion    string `json:"Descripcion"`
 	Precio         string `json:"Precio"`
