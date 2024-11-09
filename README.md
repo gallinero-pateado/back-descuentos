@@ -1,2 +1,1 @@
-"# spr2-back-descuentos" 
-"Este codigo hace scraping a la pagina https://www.wendys.cl/pedir, obteniendo los datos de los descuentos que se encuentran en la pagina, y luego se muestran en pantalla."
+"#back-descuentos" "Este codigo tiene un endpoint que permite acceder a informacion sobre descuentos de productos provenientes de dos archivos JSON con diferentes estructuras."
