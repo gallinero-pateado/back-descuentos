@@ -9,7 +9,6 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-// Cupon estructura de los datos del cupón
 type Discount struct {
 	ID          int    `json:"id"`
 	Titulo      string `json:"name"`
@@ -17,15 +16,13 @@ type Discount struct {
 	Descripcion string `json:"description"`
 	Precio      string `json:"price"`
 	Imagen      string `json:"image"`
-	Logo        string `json:"logo,omitempty"`
 }
 
-// Logo representa el logo en la estructura JSON
 type logoOxxo struct {
 	Logo string `json:"logo"`
 }
 
-// Scrappi realiza el scraping a OXXO
+// ScrapingOxxo realiza el scraping a OXXO
 func ScrapingOxxo(filename string) error {
 	url := "https://oxxo.cl/promociones"
 	res, err := http.Get(url)
@@ -40,47 +37,28 @@ func ScrapingOxxo(filename string) error {
 	}
 
 	// Obtener logo
-	logo, exists := doc.Find("a.css-115kwlw").Attr("src")
+	logo, exists := doc.Find("a.center-center img").Attr("src")
 	if !exists || logo == "" {
 		logo = "No disponible"
 	}
 
 	var discounts []Discount
 
-	// Iteramos sobre los descuentos
-	doc.Find("div.promotions__card").Each(func(i int, s *goquery.Selection) {
-		// Verificación de los elementos dentro del div
-		titulo := s.Find("h3").Text()                // Suponiendo que el título está en un <h3>
-		descripcion := s.Find(".description").Text() // Ajustar el selector
-		precio := s.Find(".price").Text()            // Ajustar el selector
-
-		// Verificación de que se están extrayendo correctamente los valores
-		if titulo == "" {
-			titulo = "No disponible"
-		}
-		if descripcion == "" {
-			descripcion = "No disponible"
-		}
-		if precio == "" {
-			precio = "Sin precio"
-		}
-
-		imagen, _ := s.Find("img.img-fluid").Attr("src") // Ajustar el selector
-		if imagen == "" {
+	doc.Find("div.col-sm-4 img.img-fluid").Each(func(i int, s *goquery.Selection) {
+		imagen, exists := s.Attr("src")
+		if !exists || imagen == "" {
 			imagen = "No disponible"
 		}
 
-		// Mostrar información de los cupones para depuración
-		fmt.Printf("Descuento %d - Titulo: %s, Descripción: %s, Precio: %s, Imagen: %s\n", i+1, titulo, descripcion, precio, imagen)
+		precio := "Cupón"
 
 		discounts = append(discounts, Discount{
 			ID:          i + 1,
-			Titulo:      titulo,
-			Categoria:   "Saludable", // Cambiar según la categoría correcta
-			Descripcion: descripcion,
+			Titulo:      "No disponible",
+			Categoria:   "Saludable",
+			Descripcion: "No disponible",
 			Precio:      precio,
 			Imagen:      imagen,
-			Logo:        "", // No se necesita el logo en cada cupón
 		})
 	})
 

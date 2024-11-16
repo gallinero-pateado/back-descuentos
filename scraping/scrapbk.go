@@ -18,11 +18,10 @@ type Cupon struct {
 	Descripcion string `json:"description"`
 	Precio      string `json:"price"`
 	Imagen      string `json:"image"`
-	Logo        string `json:"logo,omitempty"`
 }
 
 // ScrapingLogo representa el logo en la estructura JSON
-type ScrapingLogo struct {
+type LogoBurgerKing struct {
 	Logo string `json:"logo"`
 }
 
@@ -60,6 +59,8 @@ func ScrapingBurger(filename string) error {
 			descripcion = "No disponible"
 		}
 
+		precio := "Cupón"
+
 		imagen, _ := s.Find("img").Attr("src")
 		if imagen == "" {
 			imagen = "No disponible"
@@ -70,15 +71,14 @@ func ScrapingBurger(filename string) error {
 			Titulo:      titulo,
 			Categoria:   "Saludable",
 			Descripcion: descripcion,
-			Precio:      "Sin Precio",
+			Precio:      precio,
 			Imagen:      imagen,
-			Logo:        "",
 		})
 	})
 
 	// Crear la estructura para el JSON final, agregando el logo al principio
 	finalData := []interface{}{
-		ScrapingLogo{Logo: logo},
+		LogoBurgerKing{Logo: logo},
 	}
 
 	// Añadir los cupones a los datos finales

@@ -10,7 +10,6 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-// Producto estructura para almacenar los detalles del producto
 type LittleCaesarsDescuento struct {
 	ID          int    `json:"id"`
 	Titulo      string `json:"name"`
@@ -21,7 +20,12 @@ type LittleCaesarsDescuento struct {
 	Imagen      string `json:"image"`
 }
 
-// Scrape realiza el scraping y devuelve los productos
+// ScrapingLogo estructura para almacenar el logo
+type LogoLittleCaesars struct {
+	Logo string `json:"logo"`
+}
+
+// ScrapingLittleCaesars realiza el scraping y devuelve los productos
 func ScrapingLittleCaesars(filename string) error {
 	url := "https://cl.littlecaesars.com/es-cl/menu/"
 	res, err := http.Get(url)
@@ -34,6 +38,15 @@ func ScrapingLittleCaesars(filename string) error {
 	doc, err := goquery.NewDocumentFromReader(res.Body)
 	if err != nil {
 		return fmt.Errorf("error al analizar el contenido HTML: %v", err)
+	}
+
+	// Obtener el logo
+	baseURL := "https://cl.littlecaesars.com"
+	logo, exists := doc.Find("a.css-115kwlw img").Attr("src")
+	if !exists || logo == "" {
+		logo = "No disponible"
+	} else {
+		logo = baseURL + logo
 	}
 
 	var descuentos []LittleCaesarsDescuento
@@ -51,7 +64,7 @@ func ScrapingLittleCaesars(filename string) error {
 		}
 		precio := strings.TrimSpace(s.Find("div.css-15n7wyn").Text())
 		if precio == "" {
-			precio = "No disponible"
+			precio = "Cupón"
 		}
 
 		descuento := "No disponible"
@@ -72,10 +85,18 @@ func ScrapingLittleCaesars(filename string) error {
 		})
 	})
 
-	return saveLittleToJSON(filename, descuentos)
+	// Crear la estructura final para el JSON
+	finalData := []interface{}{
+		LogoLittleCaesars{Logo: logo},
+	}
+	for _, descuento := range descuentos {
+		finalData = append(finalData, descuento)
+	}
+
+	return saveLittleToJSON(filename, finalData)
 }
 
-// SaveToJSON guarda los productos en un archivo JSON
+// saveLittleToJSON guarda los datos en un archivo JSON
 func saveLittleToJSON(filename string, data interface{}) error {
 	err := os.MkdirAll("data", os.ModePerm)
 	if err != nil {

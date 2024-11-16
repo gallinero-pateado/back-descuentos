@@ -22,6 +22,11 @@ type Producto struct {
 	Imagen         string `json:"image"`
 }
 
+// ScrapingLogo estructura para almacenar el logo
+type LogoWendys struct {
+	Logo string `json:"logo"`
+}
+
 // Scrape realiza el scraping y devuelve los productos
 func ScrapingWendys(filename string) error {
 	url := "https://www.wendys.cl/pedir"
@@ -35,6 +40,12 @@ func ScrapingWendys(filename string) error {
 	doc, err := goquery.NewDocumentFromReader(res.Body)
 	if err != nil {
 		return fmt.Errorf("error al analizar el contenido HTML: %v", err)
+	}
+
+	// Obtener logo
+	logo, exists := doc.Find("div._3FqAWjFlHSfPln4gH8Ox5B img").Attr("src")
+	if !exists || logo == "" {
+		logo = "No disponible"
 	}
 
 	var productos []Producto
@@ -88,11 +99,23 @@ func ScrapingWendys(filename string) error {
 		})
 	})
 
-	return SaveWendysToJSON(filename, productos)
+	finalData := []interface{}{
+		LogoLittleCaesars{Logo: logo},
+	}
+	for _, descuento := range productos {
+		finalData = append(finalData, descuento)
+	}
+
+	return SaveWendysToJSON(filename, finalData)
 }
 
 // SaveToJSON guarda los productos en un archivo JSON
-func SaveWendysToJSON(filename string, productos []Producto) error {
+func SaveWendysToJSON(filename string, data interface{}) error {
+	err := os.MkdirAll("data", os.ModePerm)
+	if err != nil {
+		return fmt.Errorf("error al crear la carpeta 'data': %v", err)
+	}
+
 	file, err := os.Create(filename)
 	if err != nil {
 		return fmt.Errorf("error al crear el archivo: %v", err)
@@ -100,6 +123,6 @@ func SaveWendysToJSON(filename string, productos []Producto) error {
 	defer file.Close()
 
 	encoder := json.NewEncoder(file)
-	encoder.SetIndent("", "  ") // Línea agregada para formatear el JSON con indentación
-	return encoder.Encode(productos)
+	encoder.SetIndent("", "  ")
+	return encoder.Encode(data)
 }
