@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "name": "Trio Daves 50%",
+    "category": "Comida Chatarra",
+    "description": "3 Daves, 3 Papas Fritas Regulares, 6 Empanadas",
+    "price": "$12.990",
+    "previous_price": "$25.980",
+    "discount": "Trio Daves 50%",
+    "image": "https://tofuu.getjusto.com/orioneat-local/resized2/rgYNTh3ZtzX5LHzqZ-300-x.webp"
+  },
+  {
+    "id": 2,
+    "name": "Trio Locura Con Cheeseburger 40%",
+    "category": "Comida Chatarra",
+    "description": "3 Hamburguesas Cheeseburger, 3 Papas Regulares, 3 Empanadas",
+    "price": "$11.990",
+    "previous_price": "Cupón",
+    "discount": "Trio Locura Con Cheeseburger 40%",
+    "image": "https://tofuu.getjusto.com/orioneat-local/resized2/ffyjZT8KNNWp9LGv6-300-x.webp"
+  },
+  {
+    "id": 3,
+    "name": "Gran Duo Wendys 38%",
+    "category": "Comida Chatarra",
+    "description": "1 Daves, 1 Baconator Doble, 2 Papas Fritas Medianas, 2 Bebidas en Lata",
+    "price": "$10.990",
+    "previous_price": "$17.600",
+    "discount": "Gran Duo Wendys 38%",
+    "image": "https://tofuu.getjusto.com/orioneat-local/resized2/4JnfLJkmjqrbyfN6f-300-x.webp"
+  },
+  {
+    "id": 4,
+    "name": "Combo Simple Extreme Cheese Baconator",
+    "category": "Comida Chatarra",
+    "description": "Chesse Baconator Simple, Papa frita mediana, Bebida Lata",
+    "price": "$6.990",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Simple Extreme Cheese Baconator\" title=\"Combo Simple Extreme Cheese Baconator\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/HjHtayKjgf4dbdmvL-300-x.webp\"/\u003e Combo Simple Extreme Cheese Baconator",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 5,
+    "name": "Combo Doble Extreme Cheese Baconator",
+    "category": "Comida Chatarra",
+    "description": "Chesse Baconator Doble, Papa frita mediana, Bebida Lata",
+    "price": "$8.990",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Doble Extreme Cheese Baconator\" title=\"Combo Doble Extreme Cheese Baconator\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/TTu3PqxdKXkc9s3QR-300-x.webp\"/\u003e Combo Doble Extreme Cheese Baconator",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 6,
+    "name": "Daves",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con 1 Carne de 4 Oz, Doble Queso Cheddar, Lechuga, Tomate, Pepinillos, Cebolla, Mayonesa, Ketchup",
+    "price": "$5.650",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Daves\" title=\"Daves\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/fYj4ETDpwaNPGJrQD-300-x.webp\"/\u003e Daves",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 7,
+    "name": "Daves Doble",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Doble Carne de 4 Oz, Doble Queso Cheddar, Lechuga, Tomate, Pepinillos, Cebolla, Mayonesa, Ketchup",
+    "price": "$6.690",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Daves Doble\" title=\"Daves Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/JgXNLAquQeGqWopEp-300-x.webp\"/\u003e Daves Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 8,
+    "name": "Cheddar Melt",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con 1 Carne de 4Oz, Queso Cheddar, Pepinillos, Salsa de Queso, Ketchup",
+    "price": "$5.690",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Cheddar Melt\" title=\"Cheddar Melt\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/Pe9zQuQTrL9exWPXh-300-x.webp\"/\u003e Cheddar Melt",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 9,
+    "name": "Cheddar Melt Doble",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Doble Carne de 4Oz, Doble Queso Cheddar, Pepinillos, Salsa de Queso, Ketchup",
+    "price": "$6.690",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Cheddar Melt Doble\" title=\"Cheddar Melt Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/YCoyXxsDqL8KBQGXx-300-x.webp\"/\u003e Cheddar Melt Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 10,
+    "name": "Bacon Cheddar Lovers",
+    "category": "Comida Chatarra",
+    "description": "Carne de 4 oz., Smoked Applewood Bacon, queso cheddar, salsa de cheddar, cebolla grillada, tomate y lechuga",
+    "price": "$6.190",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Bacon Cheddar Lovers\" title=\"Bacon Cheddar Lovers\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/ZumKa5TkQvNtFAw3j-300-x.webp\"/\u003e Bacon Cheddar Lovers",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 11,
+    "name": "Bacon Cheddar Lovers Doble",
+    "category": "Comida Chatarra",
+    "description": "2 Carnes de 4 oz., Smoked Applewood Bacon, queso cheddar, salsa de cheddar, cebolla grillada, tomate y lechuga",
+    "price": "$7.490",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Bacon Cheddar Lovers Doble\" title=\"Bacon Cheddar Lovers Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/mM3z7MhpWhntTtvmL-300-x.webp\"/\u003e Bacon Cheddar Lovers Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 12,
+    "name": "Bacon Cheddar Simple",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Carne de 4 Oz, Bacon, Queso Cheddar, Salsa de Queso y Mayonesa",
+    "price": "$6.190",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Bacon Cheddar Simple\" title=\"Bacon Cheddar Simple\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/vmeewkkBkQ7wGZNMt-300-x.webp\"/\u003e Bacon Cheddar Simple",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 13,
+    "name": "Bacon Cheddar Doble",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Doble Carne de 4 Oz, Bacon, Queso Cheddar, Salsa de Queso y Mayonesa",
+    "price": "$7.190",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Bacon Cheddar Doble\" title=\"Bacon Cheddar Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/qpZdogTJZxDz6xkeD-300-x.webp\"/\u003e Bacon Cheddar Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 14,
+    "name": "Crispy BBQ Bacon",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con 1 Carne de 4 Oz, Queso Cheddar, Bacon, Cebolla Crispy, Salsa BBQ",
+    "price": "$6.190",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Crispy BBQ Bacon\" title=\"Crispy BBQ Bacon\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/sMs8WwdjTB4Pgb8N3-300-x.webp\"/\u003e Crispy BBQ Bacon",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 15,
+    "name": "Crispy BBQ Bacon Doble",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con 2 Carne de 4 Oz, 2 Queso Cheddar, Bacon, Cebolla Crispy, Salsa BBQ",
+    "price": "$7.490",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Crispy BBQ Bacon Doble\" title=\"Crispy BBQ Bacon Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/ZNsRPLKxB2dhP7XCB-300-x.webp\"/\u003e Crispy BBQ Bacon Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 16,
+    "name": "Baconator (Original Doble)",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Doble Carne de 4 Oz, Doble Bacon, Doble Queso Cheddar, Mayonesa, Ketchup",
+    "price": "$8.190",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Baconator (Original Doble)\" title=\"Baconator (Original Doble)\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/HBdRBGTs35jX2BN8f-300-x.webp\"/\u003e Baconator (Original Doble)",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 17,
+    "name": "Baconator Triple",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Triple Carne de 4 Oz, Triple Bacon, Triple Queso Cheddar, Mayonesa, Ketchup",
+    "price": "$11.190",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Baconator Triple\" title=\"Baconator Triple\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/6LT99LwrDNxh8rrJS-300-x.webp\"/\u003e Baconator Triple",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 18,
+    "name": "Combo Daves",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con 1 Carne de 4Oz, Queso Cheddar, Lechuga, Tomate, Pepinillos, Cebolla, Mayonesa Y Ketchup, Papas Fritas Mediana, Bebida Lata.",
+    "price": "$7.300",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Daves\" title=\"Combo Daves\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/mHHkGQPZzw4nYacJh-300-x.webp\"/\u003e Combo Daves",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 19,
+    "name": "Combo Daves Doble",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Doble Carne de 4Oz, Doble Queso Cheddar, Lechuga, Tomate, Pepinillos, Cebolla, Mayonesa y Ketchup, Papas Fritas Mediana, Bebida Lata",
+    "price": "$8.950",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Daves Doble\" title=\"Combo Daves Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/WHe4oWa9qZ9D3aCEt-300-x.webp\"/\u003e Combo Daves Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 20,
+    "name": "Combo Bacon Cheddar Lovers",
+    "category": "Comida Chatarra",
+    "description": "Bacon Cheddar Lovers, Papas Fritas Mediana, Bebida lata.",
+    "price": "$7.990",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Bacon Cheddar Lovers\" title=\"Combo Bacon Cheddar Lovers\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/7CfTENzdZZjELMFod-300-x.webp\"/\u003e Combo Bacon Cheddar Lovers",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 21,
+    "name": "Combo Bacon Cheddar Lovers Doble",
+    "category": "Comida Chatarra",
+    "description": "Bacon Cheddar Lovers Doble, Papas Fritas Mediana, Bebida lata.",
+    "price": "$9.490",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Bacon Cheddar Lovers Doble\" title=\"Combo Bacon Cheddar Lovers Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/qvtKqnTmwa5xfp2rm-300-x.webp\"/\u003e Combo Bacon Cheddar Lovers Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 22,
+    "name": "Combo Cheddar Melt",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con 1 Carne de 4 Oz, Queso Cheddar, Salsa de Queso, Pepinillos y Ketchup, Papas Fritas Mediana, Bebida Lata.",
+    "price": "$7.300",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Cheddar Melt\" title=\"Combo Cheddar Melt\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/dcWtBHQFDmvZS6eMf-300-x.webp\"/\u003e Combo Cheddar Melt",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 23,
+    "name": "Combo Cheddar Melt Doble",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Doble Carne de 4 Oz, Doble Queso Cheddar, Salsa de Queso, Pepinillos y Ketchup, Papas Fritas Mediana, Bebida Lata",
+    "price": "$8.800",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Cheddar Melt Doble\" title=\"Combo Cheddar Melt Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/Bd4HS7XoCrBynnZ9Y-300-x.webp\"/\u003e Combo Cheddar Melt Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 24,
+    "name": "Combo Bacon Cheddar Simple",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Carne de 4 Oz, Bacon, Queso Cheddar, Salsa de Queso y Mayonesa, Papas Fritas Mediana, Bebida Lata",
+    "price": "$8.300",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Bacon Cheddar Simple\" title=\"Combo Bacon Cheddar Simple\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/cmXcozNGXZuBA8GHL-300-x.webp\"/\u003e Combo Bacon Cheddar Simple",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 25,
+    "name": "Combo Bacon Cheddar Doble",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa con Doble Carne de 4 Oz, Bacon, Queso Cheddar, Salsa de Queso y Mayonesa, Papas Fritas Mediana, Bebida Lata",
+    "price": "$9.600",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Bacon Cheddar Doble\" title=\"Combo Bacon Cheddar Doble\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/bSm2fGQeWW2ALWrvu-300-x.webp\"/\u003e Combo Bacon Cheddar Doble",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 26,
+    "name": "Classic Chicken Individual",
+    "category": "Comida Chatarra",
+    "description": "Sandwich con Pechuga Apanada, Lechuga, Tomate, Pepinillos y Mayonesa",
+    "price": "$5.290",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Classic Chicken Individual\" title=\"Classic Chicken Individual\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/49fdR3h46umrde7t6-300-x.webp\"/\u003e Classic Chicken Individual",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 27,
+    "name": "Classic Chicken Club Individual",
+    "category": "Comida Chatarra",
+    "description": "Sandwich con Pechuga de Pollo, Bacon, Queso Cheddar, Mayonesa, Lechuga y Tomates",
+    "price": "$6.290",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Classic Chicken Club Individual\" title=\"Classic Chicken Club Individual\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/9DfodJaxXzLXYLPbh-300-x.webp\"/\u003e Classic Chicken Club Individual",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 28,
+    "name": "Chicken Bacon Cheddar",
+    "category": "Comida Chatarra",
+    "description": "Pollo Crispy, Smoked Applewood Bacon, Cheddar, Salsa de Cheddar, Mayonesa.",
+    "price": "$6.290",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Chicken Bacon Cheddar\" title=\"Chicken Bacon Cheddar\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/SfPxMQogbGyBTTdoh-300-x.webp\"/\u003e Chicken Bacon Cheddar",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 29,
+    "name": "Combo Classic Chicken",
+    "category": "Comida Chatarra",
+    "description": "Sandwich con Pechuga Apanada, Lechuga, Tomate, Pepinillos y Mayonesa, Papas Fritas Mediana, Bebida Lata",
+    "price": "$6.600",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Classic Chicken\" title=\"Combo Classic Chicken\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/PXBAXW8dTqQDAnp2u-300-x.webp\"/\u003e Combo Classic Chicken",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 30,
+    "name": "Combo Classic Chicken Club",
+    "category": "Comida Chatarra",
+    "description": "Sandwich con Pechuga de Pollo, Bacon, Queso Cheddar, Mayonesa, Lechuga, Tomates, Papas Fritas Mediana y Bebida Lata",
+    "price": "$7.600",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Combo Classic Chicken Club\" title=\"Combo Classic Chicken Club\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/qj3Ksx7uCzF8KtKsL-300-x.webp\"/\u003e Combo Classic Chicken Club",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 31,
+    "name": "Chicken Bacon Cheddar Combo",
+    "category": "Comida Chatarra",
+    "description": "Chicken Bacon Cheddar, Papas Fritas Mediana, Bebida Lata",
+    "price": "$7.600",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Chicken Bacon Cheddar Combo\" title=\"Chicken Bacon Cheddar Combo\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/tAh4rbmst7XBFeBHx-300-x.webp\"/\u003e Chicken Bacon Cheddar Combo",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 32,
+    "name": "Biggie Box Tenders Cheddar Melt",
+    "category": "Comida Chatarra",
+    "description": "Cheddar Melt, Papa Regular, 2 Tenders, 1 Dip bbq",
+    "price": "$7.500",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Biggie Box Tenders Cheddar Melt\" title=\"Biggie Box Tenders Cheddar Melt\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/uwyg69ooytR298Y9c-300-x.webp\"/\u003e Biggie Box Tenders Cheddar Melt",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 33,
+    "name": "Biggie Box Tenders Daves",
+    "category": "Comida Chatarra",
+    "description": "Hamburguesa Daves, Papa Regular, 2 Tenders, 1 Dip BBQ",
+    "price": "$8.500",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Biggie Box Tenders Daves\" title=\"Biggie Box Tenders Daves\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/PPPLvwStr7p8mjthm-300-x.webp\"/\u003e Biggie Box Tenders Daves",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 34,
+    "name": "Duo Box Crispy BBQ Bacon",
+    "category": "Comida Chatarra",
+    "description": "2 Hamburguesa Crispy BBQ, 2 Papa Fritas Regulares, 4 Empanadas",
+    "price": "$11.600",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Duo Box Crispy BBQ Bacon\" title=\"Duo Box Crispy BBQ Bacon\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/CBXG4Cojvq46Ebvw4-300-x.webp\"/\u003e Duo Box Crispy BBQ Bacon",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 35,
+    "name": "Duo Box",
+    "category": "Comida Chatarra",
+    "description": "2 Hamburguesas Daves, 2 Papas Fritas Regulares, 4 Empanadas, 2 Bebidas Lata",
+    "price": "$13.950",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Duo Box\" title=\"Duo Box\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/YS2bcw5AGpwQz3Dx3-300-x.webp\"/\u003e Duo Box",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 36,
+    "name": "Trio Pack",
+    "category": "Comida Chatarra",
+    "description": "3 Hamburguesas Daves, 3 Papas Fritas Regulares, 6 Empanadas",
+    "price": "$16.800",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Trio Pack\" title=\"Trio Pack\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/u4o2bHzPzBzkCgqJR-300-x.webp\"/\u003e Trio Pack",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 37,
+    "name": "Baconator Trio Pack",
+    "category": "Comida Chatarra",
+    "description": "3 Hamburguesas Baconator (Doble Carne, Doble Bacon, Doble Queso), 3 Papas Fritas Regulares, 6 Empanada",
+    "price": "$27.800",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Baconator Trio Pack\" title=\"Baconator Trio Pack\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/MRATEQyNpjH24m8p9-300-x.webp\"/\u003e Baconator Trio Pack",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 38,
+    "name": "Box Jr. 4X4 Doble Stack",
+    "category": "Comida Chatarra",
+    "description": "4 Hamburguesa Jr Doble stack, 4 Papas Regulares, 8 Empanadas",
+    "price": "$17.990",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Box Jr. 4X4 Doble Stack\" title=\"Box Jr. 4X4 Doble Stack\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/7cfYM2qvsmaE5dA45-300-x.webp\"/\u003e Box Jr. 4X4 Doble Stack",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 39,
+    "name": "Box 4X4",
+    "category": "Comida Chatarra",
+    "description": "4 Hamburguesas Daves, 4 Papas Fritas Regulares, 8 Empanadas",
+    "price": "$21.600",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Box 4X4\" title=\"Box 4X4\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/XEEWoT8DakPEwwAc2-300-x.webp\"/\u003e Box 4X4",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 40,
+    "name": "Tenders X6",
+    "category": "Comida Chatarra",
+    "description": "6 Tenders, 2 Dip BBQ",
+    "price": "$6.490",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Tenders X6\" title=\"Tenders X6\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/AZJKh7rPnCkvbptAR-300-x.webp\"/\u003e Tenders X6",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 41,
+    "name": "Tenders X12",
+    "category": "Comida Chatarra",
+    "description": "12 Tenders(Filetillos), 2 Dip BBQ",
+    "price": "$11.690",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Tenders X12\" title=\"Tenders X12\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/g8Nfouw8JyL68qYMd-300-x.webp\"/\u003e Tenders X12",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 42,
+    "name": "Chili Regular",
+    "category": "Comida Chatarra",
+    "description": "Estofado de Porotos con Carne con una Exquisita Salsa de Tomate Ligeramente Picante",
+    "price": "$1.190",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Chili Regular\" title=\"Chili Regular\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/GW47GebsZATjwe3cY-300-x.webp\"/\u003e Chili Regular",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 43,
+    "name": "Chili Mediano",
+    "category": "Comida Chatarra",
+    "description": "Estofado de Porotos con Carne con una Exquisita Salsa de Tomate Ligeramente Picante",
+    "price": "$1.990",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Chili Mediano\" title=\"Chili Mediano\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/N5XcXD4P2TanhZt8E-300-x.webp\"/\u003e Chili Mediano",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 44,
+    "name": "PAPAS FRITAS GRANDES",
+    "category": "Comida Chatarra",
+    "description": "Crujientes y Frescas Papas Naturales con Corteza Finamente Cortadas Tamaño Grande",
+    "price": "$2.150",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"PAPAS FRITAS GRANDES\" title=\"PAPAS FRITAS GRANDES\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/P48AJvMg5kwfpZmbH-300-x.webp\"/\u003e PAPAS FRITAS GRANDES",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 45,
+    "name": "PAPA FRIED CHEESE",
+    "category": "Comida Chatarra",
+    "description": "Crujientes y Frescas Papas Naturales con Corteza Finamente Cortadas Bañadas con Salsa de Queso Cheddar",
+    "price": "$2.990",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"PAPA FRIED CHEESE\" title=\"PAPA FRIED CHEESE\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/SY53zhEw6DqteXRC9-300-x.webp\"/\u003e PAPA FRIED CHEESE",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 46,
+    "name": "EMPANADAS DE QUESO X10",
+    "category": "Comida Chatarra",
+    "description": "10 Unidades de Crujiente Masa Rellena de Queso en Forma de Medialuna",
+    "price": "$2.890",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"EMPANADAS DE QUESO X10\" title=\"EMPANADAS DE QUESO X10\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/cZprz9Z7rdfSMT4pd-300-x.webp\"/\u003e EMPANADAS DE QUESO X10",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 47,
+    "name": "PAPA FRIED BACON CHEDDAR",
+    "category": "Comida Chatarra",
+    "description": "Crujientes y Frescas Papas Naturales con Corteza Finamente Cortadas Bañadas con Salsa de Queso Cheddar y Crujiente Trocitos de Bacon",
+    "price": "$3.990",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"PAPA FRIED BACON CHEDDAR\" title=\"PAPA FRIED BACON CHEDDAR\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/oqQGEpaWDvPjKa6Jh-300-x.webp\"/\u003e PAPA FRIED BACON CHEDDAR",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 48,
+    "name": "Frozen Oreo Manjar 21% OFF",
+    "category": "Comida Chatarra",
+    "description": "Frozen Oreo con Salsa de Manjar",
+    "price": "$1.690",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Frozen Oreo Manjar 21% OFF\" title=\"Frozen Oreo Manjar 21% OFF\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/KRmZkQgLG6u6vyjpo-300-x.webp\"/\u003e Frozen Oreo Manjar 21% OFF",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 49,
+    "name": "Frozen Oreo Chocolate",
+    "category": "Comida Chatarra",
+    "description": "Frozen Oreo con Salsa de Chocolate",
+    "price": "$2.350",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Frozen Oreo Chocolate\" title=\"Frozen Oreo Chocolate\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/GBmrrkAmD5RMpwgPn-300-x.webp\"/\u003e Frozen Oreo Chocolate",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 50,
+    "name": "FROZEN MM MANJAR",
+    "category": "Comida Chatarra",
+    "description": "Frozen MM con Salsa de Manjar",
+    "price": "$2.350",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"FROZEN MM MANJAR\" title=\"FROZEN MM MANJAR\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/KGtNBXBLqkhBHhkay-300-x.webp\"/\u003e FROZEN MM MANJAR",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 51,
+    "name": "FROZEN MM CHOCOLATE",
+    "category": "Comida Chatarra",
+    "description": "Frozen MM con Salsa de Chocolate",
+    "price": "$2.350",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"FROZEN MM CHOCOLATE\" title=\"FROZEN MM CHOCOLATE\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/KGtNBXBLqkhBHhkay-300-x.webp\"/\u003e FROZEN MM CHOCOLATE",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 52,
+    "name": "Bebidas En Lata",
+    "category": "Comida Chatarra",
+    "description": "Elige tu Bebida en Lata",
+    "price": "$1.890",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Bebidas En Lata\" title=\"Bebidas En Lata\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/gJeH9ZHX6RE7qSbYn-300-x.webp\"/\u003e Bebidas En Lata",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 53,
+    "name": "Bebida 1.5L",
+    "category": "Comida Chatarra",
+    "description": "Bebida de 1.5 Lts",
+    "price": "$3.190",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"Bebida 1.5L\" title=\"Bebida 1.5L\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/yeuE3g3NQN4JXNyk3-300-x.webp\"/\u003e Bebida 1.5L",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 54,
+    "name": "AGUA MINERAL CON GAS",
+    "category": "Comida Chatarra",
+    "description": "Agua Cachantun con Gas",
+    "price": "$1.790",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"AGUA MINERAL CON GAS\" title=\"AGUA MINERAL CON GAS\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/rS8Za3p3sFKhML8xa-300-x.webp\"/\u003e AGUA MINERAL CON GAS",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  },
+  {
+    "id": 55,
+    "name": "AGUA MINERAL SIN GAS",
+    "category": "Comida Chatarra",
+    "description": "Agua Cachantun sin Gas",
+    "price": "$1.790",
+    "previous_price": "Cupón",
+    "discount": "\u003cimg alt=\"AGUA MINERAL SIN GAS\" title=\"AGUA MINERAL SIN GAS\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" class=\"rounded-l-lg\" src=\"https://tofuu.getjusto.com/orioneat-local/resized2/QRKaYhuykYbRTkrpA-300-x.webp\"/\u003e AGUA MINERAL SIN GAS",
+    "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  }
+]
