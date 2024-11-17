@@ -18,11 +18,7 @@ type Cupon struct {
 	Descripcion string `json:"description"`
 	Precio      string `json:"price"`
 	Imagen      string `json:"image"`
-}
-
-// ScrapingLogo representa el logo en la estructura JSON
-type LogoBurgerKing struct {
-	Logo string `json:"logo"`
+	Logo        string `json:"logo"`
 }
 
 // Scrap realiza el scraping a Burger King
@@ -39,7 +35,6 @@ func ScrapingBurger(filename string) error {
 		return fmt.Errorf("error al analizar el contenido HTML: %v", err)
 	}
 
-	// Obtener logo
 	logo, exists := doc.Find("img.header__brandLogo").Attr("src")
 	if !exists || logo == "" {
 		logo = "No disponible"
@@ -47,7 +42,6 @@ func ScrapingBurger(filename string) error {
 
 	var cupones []Cupon
 
-	// Iteramos sobre los descuentos
 	doc.Find("button.card-tab").Each(func(i int, s *goquery.Selection) {
 		titulo := strings.TrimSpace(s.Find("h6.coupon-name.mb-1").Text())
 		if titulo == "" {
@@ -69,25 +63,15 @@ func ScrapingBurger(filename string) error {
 		cupones = append(cupones, Cupon{
 			ID:          i + 1,
 			Titulo:      titulo,
-			Categoria:   "Saludable",
+			Categoria:   "Burger King",
 			Descripcion: descripcion,
 			Precio:      precio,
 			Imagen:      imagen,
+			Logo:        logo,
 		})
 	})
 
-	// Crear la estructura para el JSON final, agregando el logo al principio
-	finalData := []interface{}{
-		LogoBurgerKing{Logo: logo},
-	}
-
-	// Añadir los cupones a los datos finales
-	for _, cupon := range cupones {
-		finalData = append(finalData, cupon)
-	}
-
-	// Guardar los datos en JSON
-	return saveToJSON(filename, finalData)
+	return saveToJSON(filename, cupones)
 }
 
 // saveToJSON guarda los datos en un archivo JSON

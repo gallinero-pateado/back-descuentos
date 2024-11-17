@@ -1,176 +1,192 @@
 [
   {
-    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
-  },
-  {
     "id": 1,
     "name": "DOBLE PODER",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$8.500",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1730153768-bannermenu_500x350_2n1.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1730153768-bannermenu_500x350_2n1.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 2,
     "name": "EXTRA PEPPERONI",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$7.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1718041820-group-1.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1718041820-group-1.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 3,
     "name": "CINNASTIX",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$3.500",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1718043003-group-1.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1718043003-group-1.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 4,
     "name": "FAMILIAR PEPPERONI",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$5.500",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1584717790-cl-pizza-pepperoni-14in.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1584717790-cl-pizza-pepperoni-14in.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 5,
     "name": "FAMILIAR JAMÓN",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$8.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1730413612-bannermenu_500-u350_jamon.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1730413612-bannermenu_500-u350_jamon.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 6,
     "name": "FAMILIAR HULA HAWAIIAN",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$12.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1584717252-cl-pizza-hula-hawaiian-14in.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1584717252-cl-pizza-hula-hawaiian-14in.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 7,
     "name": "FAMILIAR ULTIMATE SUPREME",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$10.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1584717263-cl-pizza-ultimate-supreme-14in.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1584717263-cl-pizza-ultimate-supreme-14in.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 8,
     "name": "CRAZY COMBO",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$3.500",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1588345059-sides-crazy-combo.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1588345059-sides-crazy-combo.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 9,
     "name": "COMBO GUERRERO",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$13.500",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1730410628-bannermenu_500-u350_combo.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1730410628-bannermenu_500-u350_combo.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 10,
     "name": "Combo Pelooza",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$17.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1690423666-combo-pelooza-web.jpg?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1690423666-combo-pelooza-web.jpg?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 11,
     "name": "Caesar Puffs Pepperoni",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$4.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1664494195-menu-cp-pepperoni.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1664494195-menu-cp-pepperoni.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 12,
     "name": "FAMILIAR QUESO",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$5.500",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1584717244-cl-pizza-cheese-14in.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1584717244-cl-pizza-cheese-14in.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 13,
     "name": "FAMILIAR SUPER CHEESE",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$9.500",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1584717259-cl-pizza-super-cheese-14in.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1584717259-cl-pizza-super-cheese-14in.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 14,
     "name": "FAMILIAR VEGGIE",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$10.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1588351357-classic-veggie.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1588351357-classic-veggie.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 15,
     "name": "Chicken BBQ",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$12.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1656351673-chiken-bbq-chile-menu.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1656351673-chiken-bbq-chile-menu.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 16,
     "name": "FAMILIAR3 MEAT TREAT®",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$10.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1584717240-cl-pizza-3-meat-treat-14in.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1584717240-cl-pizza-3-meat-treat-14in.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 17,
     "name": "CAESAR WINGS",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$5.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1588345083-sides-crazy-wings.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1588345083-sides-crazy-wings.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 18,
     "name": "3 Cheese Stixs",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$4.500",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1645126164-chile_3cheesestix_500x350.png?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1645126164-chile_3cheesestix_500x350.png?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   },
   {
     "id": 19,
     "name": "Combo Extra Peppe",
-    "category": "Comida Chatarra",
+    "category": "Little Caesars",
     "description": "No disponible",
     "price": "$11.000",
     "discount": "No disponible",
-    "image": "https://www.datocms-assets.com/24456/1683079517-extra-peppe-1.jpg?auto=format"
+    "image": "https://www.datocms-assets.com/24456/1683079517-extra-peppe-1.jpg?auto=format",
+    "logo": "https://cl.littlecaesars.com/static/lc-logo-889f785a1fecc8dcb086c295c4112822.png"
   }
 ]

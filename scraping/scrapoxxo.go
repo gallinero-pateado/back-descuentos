@@ -16,10 +16,7 @@ type Discount struct {
 	Descripcion string `json:"description"`
 	Precio      string `json:"price"`
 	Imagen      string `json:"image"`
-}
-
-type logoOxxo struct {
-	Logo string `json:"logo"`
+	Logo        string `json:"logo"`
 }
 
 // ScrapingOxxo realiza el scraping a OXXO
@@ -55,25 +52,15 @@ func ScrapingOxxo(filename string) error {
 		discounts = append(discounts, Discount{
 			ID:          i + 1,
 			Titulo:      "No disponible",
-			Categoria:   "Saludable",
+			Categoria:   "Oxxo",
 			Descripcion: "No disponible",
 			Precio:      precio,
 			Imagen:      imagen,
+			Logo:        logo,
 		})
 	})
 
-	// Crear la estructura para el JSON final, agregando el logo al principio
-	finalData := []interface{}{
-		logoOxxo{Logo: logo},
-	}
-
-	// Añadir los cupones a los datos finales
-	for _, cupon := range discounts {
-		finalData = append(finalData, cupon)
-	}
-
-	// Guardar los datos en JSON
-	return saveDiscountToJSON(filename, finalData)
+	return saveDiscountToJSON(filename, discounts)
 }
 
 // saveDiscountToJSON guarda los datos en un archivo JSON

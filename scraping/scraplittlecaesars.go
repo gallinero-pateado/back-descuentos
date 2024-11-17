@@ -18,11 +18,7 @@ type LittleCaesarsDescuento struct {
 	Precio      string `json:"price"`
 	Descuento   string `json:"discount"`
 	Imagen      string `json:"image"`
-}
-
-// ScrapingLogo estructura para almacenar el logo
-type LogoLittleCaesars struct {
-	Logo string `json:"logo"`
+	Logo        string `json:"logo"`
 }
 
 // ScrapingLittleCaesars realiza el scraping y devuelve los productos
@@ -77,23 +73,16 @@ func ScrapingLittleCaesars(filename string) error {
 		descuentos = append(descuentos, LittleCaesarsDescuento{
 			ID:          i + 1,
 			Titulo:      titulo,
-			Categoria:   "Comida Chatarra",
+			Categoria:   "Little Caesars",
 			Descripcion: descripcion,
 			Precio:      precio,
 			Descuento:   descuento,
 			Imagen:      imagen,
+			Logo:        logo,
 		})
 	})
 
-	// Crear la estructura final para el JSON
-	finalData := []interface{}{
-		LogoLittleCaesars{Logo: logo},
-	}
-	for _, descuento := range descuentos {
-		finalData = append(finalData, descuento)
-	}
-
-	return saveLittleToJSON(filename, finalData)
+	return saveLittleToJSON(filename, descuentos)
 }
 
 // saveLittleToJSON guarda los datos en un archivo JSON
