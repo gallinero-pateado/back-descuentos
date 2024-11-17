@@ -54,7 +54,7 @@ func ScrapingLittleCaesars(filename string) error {
 			titulo = "No disponible"
 		}
 
-		descripcion := strings.TrimSpace(s.Find("p.css-vurnku").Text())
+		descripcion := strings.TrimSpace(s.Find("div.css-vurnku").Text())
 		if descripcion == "" {
 			descripcion = "No disponible"
 		}

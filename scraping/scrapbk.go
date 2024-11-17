@@ -10,7 +10,6 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-// Cupon estructura de los datos del cupón
 type Cupon struct {
 	ID          int    `json:"id"`
 	Titulo      string `json:"name"`
@@ -21,7 +20,7 @@ type Cupon struct {
 	Logo        string `json:"logo"`
 }
 
-// Scrap realiza el scraping a Burger King
+// realiza el scraping a Burger King
 func ScrapingBurger(filename string) error {
 	url := "https://www.burgerking.cl/cupones/"
 	res, err := http.Get(url)

@@ -23,7 +23,7 @@ type Producto struct {
 	Logo           string `json:"logo"`
 }
 
-// Scrape realiza el scraping y devuelve los productos
+// realiza el scraping y devuelve los productos
 func ScrapingWendys(filename string) error {
 	url := "https://www.wendys.cl/pedir"
 	res, err := http.Get(url)
