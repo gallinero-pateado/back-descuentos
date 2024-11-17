@@ -104,10 +104,10 @@ func MostrarDescuentos(c *gin.Context) {
 
 	// Enviar los descuentos como respuesta
 	c.JSON(http.StatusOK, gin.H{
-		"message":                 "Descuentos disponibles",
-		"descuentosWendys":        descuentosWS,
-		"descuentosBurgerKing":    descuentosBK,
-		"descuentosLittleCaesars": descuentosLC,
-		"descuentosOxxo":          descuentosOx,
+		"message":                  "Descuentos disponibles",
+		"Descuentos Wendys":        descuentosWS,
+		"Descuentos BurgerKing":    descuentosBK,
+		"Descuentos LittleCaesars": descuentosLC,
+		"Descuentos Oxxo":          descuentosOx,
 	})
 }
