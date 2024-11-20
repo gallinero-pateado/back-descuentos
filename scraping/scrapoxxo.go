@@ -11,12 +11,14 @@ import (
 
 type Discount struct {
 	ID          int    `json:"id"`
-	Titulo      string `json:"name"`
+	Name        string `json:"name"`
 	Categoria   string `json:"category"`
-	Descripcion string `json:"description"`
-	Precio      string `json:"price"`
-	Imagen      string `json:"image"`
+	Description string `json:"description"`
+	Price       string `json:"price"`
+	Image       string `json:"image"`
 	Logo        string `json:"logo"`
+	Type        string `json:"type"`
+	Url         string `json:"url"`
 }
 
 // ScrapingOxxo realiza el scraping a OXXO
@@ -51,12 +53,14 @@ func ScrapingOxxo(filename string) error {
 
 		discounts = append(discounts, Discount{
 			ID:          i + 1,
-			Titulo:      "No disponible",
+			Name:        "Promoción de Oxxo",
 			Categoria:   "Oxxo",
-			Descripcion: "No disponible",
-			Precio:      precio,
-			Imagen:      imagen,
+			Description: "Más información en la página oficial.",
+			Price:       precio,
+			Image:       imagen,
 			Logo:        logo,
+			Type:        "Cupon",
+			Url:         url,
 		})
 	})
 

@@ -11,14 +11,17 @@ import (
 )
 
 type LittleCaesarsDescuento struct {
-	ID          int    `json:"id"`
-	Titulo      string `json:"name"`
-	Categoria   string `json:"category"`
-	Descripcion string `json:"description"`
-	Precio      string `json:"price"`
-	Descuento   string `json:"discount"`
-	Imagen      string `json:"image"`
-	Logo        string `json:"logo"`
+	ID             int    `json:"id"`
+	Titulo         string `json:"name"`
+	Categoria      string `json:"category"`
+	Descripcion    string `json:"description"`
+	Precio         string `json:"price"`
+	PrecioAnterior string `json:"previous_price"`
+	Descuento      string `json:"discount"`
+	Imagen         string `json:"image"`
+	Logo           string `json:"logo"`
+	Type           string `json:"type"`
+	Url            string `json:"url"`
 }
 
 // ScrapingLittleCaesars realiza el scraping y devuelve los productos
@@ -58,9 +61,19 @@ func ScrapingLittleCaesars(filename string) error {
 		if descripcion == "" {
 			descripcion = "No disponible"
 		}
-		precio := strings.TrimSpace(s.Find("div.css-15n7wyn").Text())
-		if precio == "" {
-			precio = "Cupón"
+		precioTexto := strings.TrimSpace(s.Find("div.flex.gap-x-2.text-sm.flex-row").Text())
+		precios := strings.Split(precioTexto, "$")
+
+		var precio, precioAnterior string
+		if len(precios) > 2 {
+			precio = "$" + strings.TrimSpace(precios[1])
+			precioAnterior = "$" + strings.TrimSpace(precios[2])
+		} else if len(precios) == 2 {
+			precio = "$" + strings.TrimSpace(precios[1])
+			precioAnterior = "No disponible"
+		} else {
+			precio = "No disponible"
+			precioAnterior = "No disponible"
 		}
 
 		descuento := "No disponible"
@@ -71,14 +84,17 @@ func ScrapingLittleCaesars(filename string) error {
 		}
 
 		descuentos = append(descuentos, LittleCaesarsDescuento{
-			ID:          i + 1,
-			Titulo:      titulo,
-			Categoria:   "Little Caesars",
-			Descripcion: descripcion,
-			Precio:      precio,
-			Descuento:   descuento,
-			Imagen:      imagen,
-			Logo:        logo,
+			ID:             i + 1,
+			Titulo:         titulo,
+			Categoria:      "Little Caesars",
+			Descripcion:    descripcion,
+			Precio:         precio,
+			PrecioAnterior: precioAnterior,
+			Descuento:      descuento,
+			Imagen:         imagen,
+			Logo:           logo,
+			Type:           "Cupon",
+			Url:            url,
 		})
 	})
 

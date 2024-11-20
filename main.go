@@ -7,6 +7,7 @@ import (
 
 	"log"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
@@ -30,10 +31,21 @@ func main() {
 		log.Fatalf("Error al realizar el scraping a la página de Oxxo: %v", err)
 	}
 
+	// Crear el enrutador de Gin
 	r := gin.Default()
+
+	// Configuración de CORS
+	r.Use(cors.New(cors.Config{
+		AllowOrigins:     []string{"http://localhost:3000"}, // Dominio del frontend
+		AllowMethods:     []string{"GET", "POST", "OPTIONS"},
+		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
+		ExposeHeaders:    []string{"Content-Length"},
+		AllowCredentials: true,
+	}))
 
 	// Endpoint para la sección de descuentos
 	r.GET("/descuentos", handlers.MostrarDescuentos)
 
-	r.Run(":8080") // Ejecuta el servidor en el puerto 8080
+	// Ejecutar el servidor en el puerto 8080
+	r.Run(":8080")
 }

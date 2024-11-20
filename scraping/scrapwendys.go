@@ -21,9 +21,11 @@ type Producto struct {
 	Descuento      string `json:"discount"`
 	Imagen         string `json:"image"`
 	Logo           string `json:"logo"`
+	Type           string `json:"type"`
+	Url            string `json:"url"`
 }
 
-// realiza el scraping y devuelve los productos
+// Scrape realiza el scraping y devuelve los productos
 func ScrapingWendys(filename string) error {
 	url := "https://www.wendys.cl/pedir"
 	res, err := http.Get(url)
@@ -67,10 +69,10 @@ func ScrapingWendys(filename string) error {
 			precioAnterior = "$" + strings.TrimSpace(precios[2])
 		} else if len(precios) == 2 {
 			precio = "$" + strings.TrimSpace(precios[1])
-			precioAnterior = "Cupón"
+			precioAnterior = "No disponible"
 		} else {
-			precio = "Cupón"
-			precioAnterior = "Cupón"
+			precio = "No disponible"
+			precioAnterior = "No disponible"
 		}
 
 		descuento := strings.TrimSpace(s.Find("span").Text())
@@ -86,13 +88,15 @@ func ScrapingWendys(filename string) error {
 		productos = append(productos, Producto{
 			ID:             i + 1,
 			Titulo:         titulo,
-			Categoria:      "Wendys",
+			Categoria:      "wendys",
 			Descripcion:    descripcion,
 			Precio:         precio,
 			PrecioAnterior: precioAnterior,
 			Descuento:      descuento,
 			Imagen:         imagen,
 			Logo:           logo,
+			Type:           "producto",
+			Url:            url, // Asignar la URL aquí
 		})
 	})
 

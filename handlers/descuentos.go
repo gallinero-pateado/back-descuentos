@@ -8,106 +8,50 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type DescuentoWS struct {
-	ID             int    `json:"id"`
-	Titulo         string `json:"name"`
-	Categoria      string `json:"category"`
-	Descripcion    string `json:"description"`
-	Precio         string `json:"price"`
-	PrecioAnterior string `json:"previous_price"`
-	Descuento      string `json:"discount"`
-	Imagen         string `json:"image"`
-	Logo           string `json:"logo"`
+// Estructura unificada para los productos
+type Product struct {
+	ID            int    `json:"id"`
+	Name          string `json:"name"`
+	Category      string `json:"category"`
+	Description   string `json:"description"`
+	Price         string `json:"price"`
+	PreviousPrice string `json:"previous_price,omitempty"`
+	Image         string `json:"image"`
+	Logo          string `json:"logo"`
+	Type          string `json:"type"`
+	Url           string `json:"url"`
 }
 
-type DescuentoBK struct {
-	ID          int    `json:"id"`
-	Titulo      string `json:"name"`
-	Categoria   string `json:"category"`
-	Descripcion string `json:"description"`
-	Precio      string `json:"price"`
-	Imagen      string `json:"image"`
-	Logo        string `json:"logo"`
-}
-
-type DescuentoLC struct {
-	ID          int    `json:"id"`
-	Titulo      string `json:"name"`
-	Categoria   string `json:"category"`
-	Descripcion string `json:"description"`
-	Precio      string `json:"price"`
-	Descuento   string `json:"discount"`
-	Imagen      string `json:"image"`
-	Logo        string `json:"logo"`
-}
-
-type DescuentoOx struct {
-	ID          int    `json:"id"`
-	Titulo      string `json:"name"`
-	Categoria   string `json:"category"`
-	Descripcion string `json:"description"`
-	Precio      string `json:"price"`
-	Imagen      string `json:"image"`
-	Logo        string `json:"logo"`
-}
-
+// MostrarDescuentos procesa y unifica los datos de los diferentes JSON
 func MostrarDescuentos(c *gin.Context) {
-	// Leer el archivo JSON
-	descuentoWSData, err := os.ReadFile("data/wendys.json")
-	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo leer el archivo de descuentos de Wendys", "details": err.Error()})
-		return
+	// Rutas de los archivos JSON
+	files := []string{
+		"data/wendys.json",
+		"data/burgerking.json",
+		"data/little_caesars.json",
+		"data/oxxo.json",
 	}
 
-	descuentoBKData, err := os.ReadFile("data/burgerking.json")
-	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo leer el archivo de descuentos de Burger King", "details": err.Error()})
-		return
+	var allProducts []Product
+
+	// Leer y procesar cada archivo JSON
+	for _, file := range files {
+		data, err := os.ReadFile(file)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "Error al leer el archivo", "file": file, "details": err.Error()})
+			return
+		}
+
+		// Decodificar los datos en la estructura unificada
+		var products []Product
+		if err := json.Unmarshal(data, &products); err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "Error al parsear el archivo", "file": file, "details": err.Error()})
+			return
+		}
+
+		allProducts = append(allProducts, products...)
 	}
 
-	descuentoLCData, err := os.ReadFile("data/little_caesars.json")
-	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo leer el archivo de descuentos de Little Caesars", "details": err.Error()})
-		return
-	}
-
-	descuentoOxData, err := os.ReadFile("data/oxxo.json")
-	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo leer el archivo de descuentos de Oxxo", "details": err.Error()})
-		return
-	}
-
-	// Convertir el archivo JSON a un slice de Productos
-	var descuentosWS []DescuentoWS
-	if err := json.Unmarshal(descuentoWSData, &descuentosWS); err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Error al parsear el archivo de descuentos"})
-		return
-	}
-
-	var descuentosBK []DescuentoBK
-	if err := json.Unmarshal(descuentoBKData, &descuentosBK); err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Error al parsear el archivo de descuentos"})
-		return
-	}
-
-	var descuentosLC []DescuentoWS
-	if err := json.Unmarshal(descuentoLCData, &descuentosLC); err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Error al parsear el archivo de descuentos"})
-		return
-	}
-
-	var descuentosOx []DescuentoBK
-	if err := json.Unmarshal(descuentoOxData, &descuentosOx); err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Error al parsear el archivo de descuentos"})
-		return
-	}
-
-	// Enviar los descuentos como respuesta
-	c.JSON(http.StatusOK, gin.H{
-		"message":                  "Descuentos disponibles",
-		"Descuentos Wendys":        descuentosWS,
-		"Descuentos BurgerKing":    descuentosBK,
-		"Descuentos LittleCaesars": descuentosLC,
-		"Descuentos Oxxo":          descuentosOx,
-	})
+	// Responder con todos los productos unificados
+	c.JSON(http.StatusOK, allProducts)
 }
