@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Combo Simple Extreme Cheese Baconator",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Chesse Baconator Simple, Papa frita mediana, Bebida Lata",
     "price": "$6.990",
     "previous_price": "No disponible",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "name": "Combo Doble Extreme Cheese Baconator",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Chesse Baconator Doble, Papa frita mediana, Bebida Lata",
     "price": "$8.990",
     "previous_price": "No disponible",
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "name": "Combo Baconator Doble 29%",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Doble Carne de 4 oz, Bacon, Queso Cheddar, Salsa de queso y Mayonesa, Papas Fritas Mediana, Bebida Lata",
     "price": "$7.270",
     "previous_price": "$10.300",
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "name": "2X1 Bacon Cheddar",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "2 Hamburguesas Bacon Cheddar Simples",
     "price": "$5.990",
     "previous_price": "$11.980",
@@ -54,7 +54,7 @@
   {
     "id": 5,
     "name": "Baconator Fried 21%",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Crujientes y Frescas Papas Naturales con Corteza Finamente Cortadas Bañadas con Salsa de Queso Cheddar y Crujiente Trocitos de Bacon",
     "price": "$3.150",
     "previous_price": "$3.990",
@@ -67,7 +67,7 @@
   {
     "id": 6,
     "name": "Trio Locura Con Cheeseburger 40%",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "3 Hamburguesas Cheeseburger, 3 Papas Regulares, 3 Empanadas",
     "price": "$11.990",
     "previous_price": "No disponible",
@@ -80,7 +80,7 @@
   {
     "id": 7,
     "name": "Trio Daves 50%",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "3 Daves, 3 Papas Fritas Regulares, 6 Empanadas",
     "price": "$12.990",
     "previous_price": "$25.980",
@@ -93,7 +93,7 @@
   {
     "id": 8,
     "name": "Daves",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con 1 Carne de 4 Oz, Doble Queso Cheddar, Lechuga, Tomate, Pepinillos, Cebolla, Mayonesa, Ketchup",
     "price": "$5.650",
     "previous_price": "No disponible",
@@ -106,7 +106,7 @@
   {
     "id": 9,
     "name": "Daves Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Doble Carne de 4 Oz, Doble Queso Cheddar, Lechuga, Tomate, Pepinillos, Cebolla, Mayonesa, Ketchup",
     "price": "$6.690",
     "previous_price": "No disponible",
@@ -119,7 +119,7 @@
   {
     "id": 10,
     "name": "Cheddar Melt",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con 1 Carne de 4Oz, Queso Cheddar, Pepinillos, Salsa de Queso, Ketchup",
     "price": "$5.690",
     "previous_price": "No disponible",
@@ -132,7 +132,7 @@
   {
     "id": 11,
     "name": "Cheddar Melt Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Doble Carne de 4Oz, Doble Queso Cheddar, Pepinillos, Salsa de Queso, Ketchup",
     "price": "$6.690",
     "previous_price": "No disponible",
@@ -145,7 +145,7 @@
   {
     "id": 12,
     "name": "Bacon Cheddar Lovers",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Carne de 4 oz., Smoked Applewood Bacon, queso cheddar, salsa de cheddar, cebolla grillada, tomate y lechuga",
     "price": "$6.190",
     "previous_price": "No disponible",
@@ -158,7 +158,7 @@
   {
     "id": 13,
     "name": "Bacon Cheddar Lovers Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "2 Carnes de 4 oz., Smoked Applewood Bacon, queso cheddar, salsa de cheddar, cebolla grillada, tomate y lechuga",
     "price": "$7.490",
     "previous_price": "No disponible",
@@ -171,7 +171,7 @@
   {
     "id": 14,
     "name": "Bacon Cheddar Simple",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Carne de 4 Oz, Bacon, Queso Cheddar, Salsa de Queso y Mayonesa",
     "price": "$6.190",
     "previous_price": "No disponible",
@@ -184,7 +184,7 @@
   {
     "id": 15,
     "name": "Bacon Cheddar Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Doble Carne de 4 Oz, Bacon, Queso Cheddar, Salsa de Queso y Mayonesa",
     "price": "$7.190",
     "previous_price": "No disponible",
@@ -197,7 +197,7 @@
   {
     "id": 16,
     "name": "Crispy BBQ Bacon",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con 1 Carne de 4 Oz, Queso Cheddar, Bacon, Cebolla Crispy, Salsa BBQ",
     "price": "$6.190",
     "previous_price": "No disponible",
@@ -210,7 +210,7 @@
   {
     "id": 17,
     "name": "Crispy BBQ Bacon Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con 2 Carne de 4 Oz, 2 Queso Cheddar, Bacon, Cebolla Crispy, Salsa BBQ",
     "price": "$7.490",
     "previous_price": "No disponible",
@@ -223,7 +223,7 @@
   {
     "id": 18,
     "name": "Baconator (Original Doble)",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Doble Carne de 4 Oz, Doble Bacon, Doble Queso Cheddar, Mayonesa, Ketchup",
     "price": "$8.190",
     "previous_price": "No disponible",
@@ -236,7 +236,7 @@
   {
     "id": 19,
     "name": "Baconator Triple",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Triple Carne de 4 Oz, Triple Bacon, Triple Queso Cheddar, Mayonesa, Ketchup",
     "price": "$11.190",
     "previous_price": "No disponible",
@@ -249,7 +249,7 @@
   {
     "id": 20,
     "name": "Combo Daves",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con 1 Carne de 4Oz, Queso Cheddar, Lechuga, Tomate, Pepinillos, Cebolla, Mayonesa Y Ketchup, Papas Fritas Mediana, Bebida Lata.",
     "price": "$7.300",
     "previous_price": "No disponible",
@@ -262,7 +262,7 @@
   {
     "id": 21,
     "name": "Combo Daves Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Doble Carne de 4Oz, Doble Queso Cheddar, Lechuga, Tomate, Pepinillos, Cebolla, Mayonesa y Ketchup, Papas Fritas Mediana, Bebida Lata",
     "price": "$8.950",
     "previous_price": "No disponible",
@@ -275,7 +275,7 @@
   {
     "id": 22,
     "name": "Combo Bacon Cheddar Lovers",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Bacon Cheddar Lovers, Papas Fritas Mediana, Bebida lata.",
     "price": "$7.990",
     "previous_price": "No disponible",
@@ -288,7 +288,7 @@
   {
     "id": 23,
     "name": "Combo Bacon Cheddar Lovers Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Bacon Cheddar Lovers Doble, Papas Fritas Mediana, Bebida lata.",
     "price": "$9.490",
     "previous_price": "No disponible",
@@ -301,7 +301,7 @@
   {
     "id": 24,
     "name": "Combo Cheddar Melt",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con 1 Carne de 4 Oz, Queso Cheddar, Salsa de Queso, Pepinillos y Ketchup, Papas Fritas Mediana, Bebida Lata.",
     "price": "$7.300",
     "previous_price": "No disponible",
@@ -314,7 +314,7 @@
   {
     "id": 25,
     "name": "Combo Cheddar Melt Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Doble Carne de 4 Oz, Doble Queso Cheddar, Salsa de Queso, Pepinillos y Ketchup, Papas Fritas Mediana, Bebida Lata",
     "price": "$8.800",
     "previous_price": "No disponible",
@@ -327,7 +327,7 @@
   {
     "id": 26,
     "name": "Combo Bacon Cheddar Simple",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Carne de 4 Oz, Bacon, Queso Cheddar, Salsa de Queso y Mayonesa, Papas Fritas Mediana, Bebida Lata",
     "price": "$8.300",
     "previous_price": "No disponible",
@@ -340,7 +340,7 @@
   {
     "id": 27,
     "name": "Combo Bacon Cheddar Doble",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa con Doble Carne de 4 Oz, Bacon, Queso Cheddar, Salsa de Queso y Mayonesa, Papas Fritas Mediana, Bebida Lata",
     "price": "$9.600",
     "previous_price": "No disponible",
@@ -353,7 +353,7 @@
   {
     "id": 28,
     "name": "Classic Chicken Individual",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Sandwich con Pechuga Apanada, Lechuga, Tomate, Pepinillos y Mayonesa",
     "price": "$5.290",
     "previous_price": "No disponible",
@@ -366,7 +366,7 @@
   {
     "id": 29,
     "name": "Classic Chicken Club Individual",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Sandwich con Pechuga de Pollo, Bacon, Queso Cheddar, Mayonesa, Lechuga y Tomates",
     "price": "$6.290",
     "previous_price": "No disponible",
@@ -379,7 +379,7 @@
   {
     "id": 30,
     "name": "Chicken Bacon Cheddar",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Pollo Crispy, Smoked Applewood Bacon, Cheddar, Salsa de Cheddar, Mayonesa.",
     "price": "$6.290",
     "previous_price": "No disponible",
@@ -392,7 +392,7 @@
   {
     "id": 31,
     "name": "Combo Classic Chicken",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Sandwich con Pechuga Apanada, Lechuga, Tomate, Pepinillos y Mayonesa, Papas Fritas Mediana, Bebida Lata",
     "price": "$6.600",
     "previous_price": "No disponible",
@@ -405,7 +405,7 @@
   {
     "id": 32,
     "name": "Combo Classic Chicken Club",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Sandwich con Pechuga de Pollo, Bacon, Queso Cheddar, Mayonesa, Lechuga, Tomates, Papas Fritas Mediana y Bebida Lata",
     "price": "$7.600",
     "previous_price": "No disponible",
@@ -418,7 +418,7 @@
   {
     "id": 33,
     "name": "Chicken Bacon Cheddar Combo",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Chicken Bacon Cheddar, Papas Fritas Mediana, Bebida Lata",
     "price": "$7.600",
     "previous_price": "No disponible",
@@ -431,7 +431,7 @@
   {
     "id": 34,
     "name": "Biggie Box Tenders Cheddar Melt",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Cheddar Melt, Papa Regular, 2 Tenders, 1 Dip bbq",
     "price": "$7.500",
     "previous_price": "No disponible",
@@ -444,7 +444,7 @@
   {
     "id": 35,
     "name": "Biggie Box Tenders Daves",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Hamburguesa Daves, Papa Regular, 2 Tenders, 1 Dip BBQ",
     "price": "$8.500",
     "previous_price": "No disponible",
@@ -457,7 +457,7 @@
   {
     "id": 36,
     "name": "Duo Box Crispy BBQ Bacon",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "2 Hamburguesa Crispy BBQ, 2 Papa Fritas Regulares, 4 Empanadas",
     "price": "$11.600",
     "previous_price": "No disponible",
@@ -470,7 +470,7 @@
   {
     "id": 37,
     "name": "Duo Box",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "2 Hamburguesas Daves, 2 Papas Fritas Regulares, 4 Empanadas, 2 Bebidas Lata",
     "price": "$13.950",
     "previous_price": "No disponible",
@@ -483,7 +483,7 @@
   {
     "id": 38,
     "name": "Trio Pack",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "3 Hamburguesas Daves, 3 Papas Fritas Regulares, 6 Empanadas",
     "price": "$16.800",
     "previous_price": "No disponible",
@@ -496,7 +496,7 @@
   {
     "id": 39,
     "name": "Baconator Trio Pack",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "3 Hamburguesas Baconator (Doble Carne, Doble Bacon, Doble Queso), 3 Papas Fritas Regulares, 6 Empanada",
     "price": "$27.800",
     "previous_price": "No disponible",
@@ -509,7 +509,7 @@
   {
     "id": 40,
     "name": "Box Jr. 4X4 Doble Stack",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "4 Hamburguesa Jr Doble stack, 4 Papas Regulares, 8 Empanadas",
     "price": "$17.990",
     "previous_price": "No disponible",
@@ -522,7 +522,7 @@
   {
     "id": 41,
     "name": "Box 4X4",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "4 Hamburguesas Daves, 4 Papas Fritas Regulares, 8 Empanadas",
     "price": "$21.600",
     "previous_price": "No disponible",
@@ -535,7 +535,7 @@
   {
     "id": 42,
     "name": "Tenders X6",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "6 Tenders, 2 Dip BBQ",
     "price": "$6.490",
     "previous_price": "No disponible",
@@ -548,7 +548,7 @@
   {
     "id": 43,
     "name": "Tenders X12",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "12 Tenders(Filetillos), 2 Dip BBQ",
     "price": "$11.690",
     "previous_price": "No disponible",
@@ -561,7 +561,7 @@
   {
     "id": 44,
     "name": "Chili Regular",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Estofado de Porotos con Carne con una Exquisita Salsa de Tomate Ligeramente Picante",
     "price": "$1.190",
     "previous_price": "No disponible",
@@ -574,7 +574,7 @@
   {
     "id": 45,
     "name": "Chili Mediano",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Estofado de Porotos con Carne con una Exquisita Salsa de Tomate Ligeramente Picante",
     "price": "$1.990",
     "previous_price": "No disponible",
@@ -587,7 +587,7 @@
   {
     "id": 46,
     "name": "PAPAS FRITAS GRANDES",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Crujientes y Frescas Papas Naturales con Corteza Finamente Cortadas Tamaño Grande",
     "price": "$2.150",
     "previous_price": "No disponible",
@@ -600,7 +600,7 @@
   {
     "id": 47,
     "name": "PAPA FRIED CHEESE",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Crujientes y Frescas Papas Naturales con Corteza Finamente Cortadas Bañadas con Salsa de Queso Cheddar",
     "price": "$2.990",
     "previous_price": "No disponible",
@@ -613,7 +613,7 @@
   {
     "id": 48,
     "name": "EMPANADAS DE QUESO X10",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "10 Unidades de Crujiente Masa Rellena de Queso en Forma de Medialuna",
     "price": "$2.890",
     "previous_price": "No disponible",
@@ -626,7 +626,7 @@
   {
     "id": 49,
     "name": "PAPA FRIED BACON CHEDDAR",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Crujientes y Frescas Papas Naturales con Corteza Finamente Cortadas Bañadas con Salsa de Queso Cheddar y Crujiente Trocitos de Bacon",
     "price": "$3.990",
     "previous_price": "No disponible",
@@ -639,7 +639,7 @@
   {
     "id": 50,
     "name": "Frozen Oreo Manjar 21% OFF",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Frozen Oreo con Salsa de Manjar",
     "price": "$1.690",
     "previous_price": "No disponible",
@@ -652,7 +652,7 @@
   {
     "id": 51,
     "name": "Frozen Oreo Chocolate",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Frozen Oreo con Salsa de Chocolate",
     "price": "$2.350",
     "previous_price": "No disponible",
@@ -665,7 +665,7 @@
   {
     "id": 52,
     "name": "FROZEN MM MANJAR",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Frozen MM con Salsa de Manjar",
     "price": "$2.350",
     "previous_price": "No disponible",
@@ -678,7 +678,7 @@
   {
     "id": 53,
     "name": "FROZEN MM CHOCOLATE",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Frozen MM con Salsa de Chocolate",
     "price": "$2.350",
     "previous_price": "No disponible",
@@ -691,7 +691,7 @@
   {
     "id": 54,
     "name": "Bebidas En Lata",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Elige tu Bebida en Lata",
     "price": "$1.890",
     "previous_price": "No disponible",
@@ -704,7 +704,7 @@
   {
     "id": 55,
     "name": "Bebida 1.5L",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Bebida de 1.5 Lts",
     "price": "$3.190",
     "previous_price": "No disponible",
@@ -717,7 +717,7 @@
   {
     "id": 56,
     "name": "AGUA MINERAL CON GAS",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Agua Cachantun con Gas",
     "price": "$1.790",
     "previous_price": "No disponible",
@@ -730,7 +730,7 @@
   {
     "id": 57,
     "name": "AGUA MINERAL SIN GAS",
-    "category": "wendys",
+    "category": "Wendys",
     "description": "Agua Cachantun sin Gas",
     "price": "$1.790",
     "previous_price": "No disponible",

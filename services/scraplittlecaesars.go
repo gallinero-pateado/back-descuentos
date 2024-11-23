@@ -103,7 +103,7 @@ func ScrapingLittleCaesars(filename string) error {
 
 // saveLittleToJSON guarda los datos en un archivo JSON
 func saveLittleToJSON(filename string, data interface{}) error {
-	err := os.MkdirAll("data", os.ModePerm)
+	err := os.MkdirAll("services/data", os.ModePerm)
 	if err != nil {
 		return fmt.Errorf("error al crear la carpeta 'data': %v", err)
 	}
