@@ -1,4 +1,4 @@
-package scraping
+package services
 
 import (
 	"encoding/json"

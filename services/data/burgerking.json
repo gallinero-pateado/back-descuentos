@@ -1,7 +1,106 @@
 [
   {
     "id": 1,
-    "name": "2 Combo Stacker XL Doble",
+    "name": "30% OFF Combo Bacon King Doble",
+    "category": "burgerking",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES.",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-11-19/49719fb077580632d810e3d029e22f56.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 2,
+    "name": "30% OFF Combo Bacon King Triple",
+    "category": "burgerking",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES. ESTE COMBO INCLUYE PAPAS Y BEBIDAS MEDIANAS.",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-08-21/48c9c106d9764187e1815837fea3035b.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 3,
+    "name": "30% OFF Combo Melty",
+    "category": "burgerking",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES. ESTE COMBO INCUYE PAPAS Y BEBIDAS MEDIANAS.",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-07-31/afc59d7da333be65a49725dc276bc513.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 4,
+    "name": "30% OFF Combo Melty Doble",
+    "category": "burgerking",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES. ESTE COMBO INCLUYE PAPAS Y BEBIDAS MEDIANAS.",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-07-31/b47128351c38c0d2112a289f0d31d689.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 5,
+    "name": "Combo Whopper Jr + Combo Whopper Jr con Queso",
+    "category": "burgerking",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES.\nCOMBOS CON PAPAS Y BEBIDAS PEQUEÑAS",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-12-13/66d0ef857841d72f7ad8f16955bc3907.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 6,
+    "name": "Combo King de Pollo Club",
+    "category": "burgerking",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES.",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-10-28/42b74281c027b7a59964fd1c53553687.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 7,
+    "name": "Combo Mediano Whopper Carne o Vegetal",
+    "category": "burgerking",
+    "description": "",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-11-04/feb3253264ae6c0772907559e7faafdb.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 8,
+    "name": "2 Combos Medianos Whopper Carne o Vegetal. $5.250 C/U",
+    "category": "burgerking",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES.",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-11-04/53ae654848f209343bdae628705b97bd.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 9,
+    "name": "3 Combos Medianos Whopper Carne o Vegetal. $5.167 C/U",
+    "category": "burgerking",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES.",
+    "price": "Cupón",
+    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-11-04/ffcc973762a099ab419da98580b489db.jpeg",
+    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
+    "type": "Cupon",
+    "url": "https://www.burgerking.cl/cupones/"
+  },
+  {
+    "id": 10,
+    "name": "2 Combo Stacker XL Doble. $7.750 C/U",
     "category": "burgerking",
     "description": "",
     "price": "Cupón",
@@ -11,21 +110,10 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 2,
-    "name": "2 Combo Whopper Medianos",
+    "id": 11,
+    "name": "2 Combo Hamburguesa Doble Queso Tocino. $5.250 C/U",
     "category": "burgerking",
-    "description": "",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-12-26/a6cc9d1ca126303168543172f200d81c.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 3,
-    "name": "2 Combo Hamburguesa Doble Queso Tocino",
-    "category": "burgerking",
-    "description": "Una de nuestras clásicas y más pedidas, dos hamburguesas de 56g de carne 100% la parrilla, con doble queso y crujiente tocino que vas a querer volver a comer una y otra vez.",
+    "description": "Una de nuestras clásicas y más pedidas, dos hamburguesas de 56g de carne 100% la parrilla, con doble queso y crujiente tocino que vas a querer volver a comer una y otra vez. \nTM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES.",
     "price": "Cupón",
     "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-12-26/f25e2eb91212432a0444362af3a32fb5.jpeg",
     "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
@@ -33,8 +121,8 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 4,
-    "name": "Family Bundle - 2 Combos Whopper + 2 Combos Whopper Jr.",
+    "id": 12,
+    "name": "Family Bundle - 2 Combos Whopper + 2 Combos Whopper Jr. $3.990 C/U",
     "category": "burgerking",
     "description": "",
     "price": "Cupón",
@@ -44,29 +132,7 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 5,
-    "name": "Combo Whopper Mediano",
-    "category": "burgerking",
-    "description": "",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-12-26/9a2dcbab768f46ef67561e3db16defe4.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 6,
-    "name": "3 Combo Whopper Medianos",
-    "category": "burgerking",
-    "description": "",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-12-26/25e907a5960cb781cf643593ba4c788c.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 7,
+    "id": 13,
     "name": "Combo Whopper Jr. Doble",
     "category": "burgerking",
     "description": "",
@@ -77,7 +143,7 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 8,
+    "id": 14,
     "name": "2 Hamburguesa Deluxe + 1 papa y bebida pequeña",
     "category": "burgerking",
     "description": "Cupón incluye una papa frita y bebida pequeña",
@@ -88,10 +154,10 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 9,
-    "name": "2 Combo Rodeo King",
+    "id": 15,
+    "name": "2 Combo Rodeo King. $5.500 C/U",
     "category": "burgerking",
-    "description": "",
+    "description": "TM \u0026 © 2024 BURGER KING CORPORATION. SE UTILIZA BAJO LICENCIA. TODOS LOS DERECHOS RESERVADOS. IMAGENES REFERENCIALES.",
     "price": "Cupón",
     "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-12-26/a7f5a680b2a44187dcd7e595bf0f6eaa.jpeg",
     "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
@@ -99,62 +165,7 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 10,
-    "name": "2 Combo Whopper Vegetal",
-    "category": "burgerking",
-    "description": "*Mayonesa contiene productos de origen animal",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-03-13/c15d692bb50d3f7bfde1f057e91a5013.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 11,
-    "name": "Promos del Rey - Long Rodeo King",
-    "category": "burgerking",
-    "description": "",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-03-22/233f1a6dee5a843099c17cf16b213efb.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 12,
-    "name": "Promos del Rey - Long Big King",
-    "category": "burgerking",
-    "description": "",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-03-22/65701bdc39bd8117f7aa11ab462464cc.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 13,
-    "name": "Promos del Rey - Long Onion Cheddar",
-    "category": "burgerking",
-    "description": "",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-03-22/4d561e1c176e7afd6d0953976d19f35f.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 14,
-    "name": "Promos del Rey - Long Clasico",
-    "category": "burgerking",
-    "description": "",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2024-03-22/fcecd671edd5cb53de2d1b2a85c293ba.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 15,
+    "id": 16,
     "name": "Combo Cheeseburger",
     "category": "burgerking",
     "description": "Combo cheeseburger simple con papas y bebida pequeñas.",
@@ -165,8 +176,8 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 16,
-    "name": "Bowl Papas Supremas + Bowl Papas Fritas",
+    "id": 17,
+    "name": "Bowl Papas Supremas + Bowl Papas Fritas. $2.725 C/U",
     "category": "burgerking",
     "description": "",
     "price": "Cupón",
@@ -176,7 +187,7 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Combo Whopper Jr.",
     "category": "burgerking",
     "description": "Combo Whopper Jr. con papas y bebida pequeñas",
@@ -187,7 +198,7 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Combo Hamburguesa Clásica",
     "category": "burgerking",
     "description": "Combo Hamburguesa Clásica con papas y bebida pequeñas.",
@@ -198,7 +209,7 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Combo Pollo Clásico",
     "category": "burgerking",
     "description": "Combo Pollo Clásico con papas y bebida pequeñas.",
@@ -209,23 +220,12 @@
     "url": "https://www.burgerking.cl/cupones/"
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Pie de Chocolate Hershey's",
     "category": "burgerking",
     "description": "",
     "price": "Cupón",
     "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-06-29/702c622ebdfeafb2c45174e5f5d964d8.jpeg",
-    "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
-    "type": "Cupon",
-    "url": "https://www.burgerking.cl/cupones/"
-  },
-  {
-    "id": 21,
-    "name": "Mozzarella Sticks",
-    "category": "burgerking",
-    "description": "¡VUELVEN POR TIEMPO LIMITADO!",
-    "price": "Cupón",
-    "image": "https://s3-sa-east-1.amazonaws.com/api-lac.production/images/discount_images/_thumbs280/2023-12-26/9ebddbd9c42772190dfe1927105f21eb.jpeg",
     "logo": "https://s3-eu-central-1.amazonaws.com/bk-cl-demo.menu.app/wp-media-folder-burger-king-chile//home/ubuntu/wordpress/web/app/uploads/sites/13/2021/10/Burger-King-Main.png",
     "type": "Cupon",
     "url": "https://www.burgerking.cl/cupones/"
