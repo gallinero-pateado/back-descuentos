@@ -1,4 +1,4 @@
-package scraping
+package services
 
 import (
 	"encoding/json"
@@ -69,7 +69,7 @@ func ScrapingOxxo(filename string) error {
 
 // saveDiscountToJSON guarda los datos en un archivo JSON
 func saveDiscountToJSON(filename string, data interface{}) error {
-	err := os.MkdirAll("data", os.ModePerm)
+	err := os.MkdirAll("services/data", os.ModePerm)
 	if err != nil {
 		return fmt.Errorf("error al crear la carpeta 'data': %v", err)
 	}

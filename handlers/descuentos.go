@@ -6,33 +6,21 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-)
 
-// Estructura unificada para los productos
-type Product struct {
-	ID            int    `json:"id"`
-	Name          string `json:"name"`
-	Category      string `json:"category"`
-	Description   string `json:"description"`
-	Price         string `json:"price"`
-	PreviousPrice string `json:"previous_price,omitempty"`
-	Image         string `json:"image"`
-	Logo          string `json:"logo"`
-	Type          string `json:"type"`
-	Url           string `json:"url"`
-}
+	"descuentos/models"
+)
 
 // MostrarDescuentos procesa y unifica los datos de los diferentes JSON
 func MostrarDescuentos(c *gin.Context) {
 	// Rutas de los archivos JSON
 	files := []string{
-		"data/wendys.json",
-		"data/burgerking.json",
-		"data/little_caesars.json",
-		"data/oxxo.json",
+		"services/data/wendys.json",
+		"services/data/burgerking.json",
+		"services/data/little_caesars.json",
+		"services/data/oxxo.json",
 	}
 
-	var allProducts []Product
+	var allProducts []models.Product
 
 	// Leer y procesar cada archivo JSON
 	for _, file := range files {
@@ -43,7 +31,7 @@ func MostrarDescuentos(c *gin.Context) {
 		}
 
 		// Decodificar los datos en la estructura unificada
-		var products []Product
+		var products []models.Product
 		if err := json.Unmarshal(data, &products); err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "Error al parsear el archivo", "file": file, "details": err.Error()})
 			return
