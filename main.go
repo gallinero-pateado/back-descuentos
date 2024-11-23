@@ -3,6 +3,8 @@ package main
 import (
 	"log"
 
+	"descuentos/auth"
+
 	"descuentos/config"
 	"descuentos/routes"
 	"descuentos/services"
@@ -11,6 +13,10 @@ import (
 )
 
 func main() {
+
+	if err := auth.InitFirebase(); err != nil {
+		log.Fatalf("Error inicializando Firebase: %v", err)
+	}
 
 	services.EjecutarScraping()
 

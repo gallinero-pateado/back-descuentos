@@ -88,7 +88,7 @@ func ScrapingWendys(filename string) error {
 		productos = append(productos, Producto{
 			ID:             i + 1,
 			Titulo:         titulo,
-			Categoria:      "wendys",
+			Categoria:      "Wendys",
 			Descripcion:    descripcion,
 			Precio:         precio,
 			PrecioAnterior: precioAnterior,
@@ -105,7 +105,7 @@ func ScrapingWendys(filename string) error {
 
 // SaveToJSON guarda los productos en un archivo JSON
 func SaveWendysToJSON(filename string, data interface{}) error {
-	err := os.MkdirAll("data", os.ModePerm)
+	err := os.MkdirAll("services/data", os.ModePerm)
 	if err != nil {
 		return fmt.Errorf("error al crear la carpeta 'data': %v", err)
 	}

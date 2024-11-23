@@ -12,6 +12,13 @@ import (
 
 // MostrarDescuentos procesa y unifica los datos de los diferentes JSON
 func MostrarDescuentos(c *gin.Context) {
+	// Obtener el UID del contexto
+	uid, exists := c.Get("uid")
+	if !exists {
+		c.JSON(http.StatusUnauthorized, gin.H{"error": "No se encontró el UID"})
+		return
+	}
+
 	// Rutas de los archivos JSON
 	files := []string{
 		"services/data/wendys.json",
@@ -41,5 +48,9 @@ func MostrarDescuentos(c *gin.Context) {
 	}
 
 	// Responder con todos los productos unificados
-	c.JSON(http.StatusOK, allProducts)
+	c.JSON(http.StatusOK, gin.H{
+		"message":  "Acceso a descuentos",
+		"user_id":  uid,
+		"products": allProducts,
+	})
 }
