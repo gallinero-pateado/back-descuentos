@@ -17,6 +17,14 @@ spec:
       containers:
       - name: back-descuentos
         image: <IMAGE>
+        # montar credenciales
+        volumeMounts:
+        - name: app-env-volume
+          mountPath: /app/config/app.env
+          readOnly: true
+        - name: firebase-sakey-volume
+          mountPath: /app/config/serviceAccountKey.json
+          readOnly: true
         ports:
         - containerPort: 8080
         resources:
@@ -26,3 +34,10 @@ spec:
           limits:
             memory: 128Mi
             cpu: 100m
+      volumes:
+      - name: app-env-volume
+        secret:
+          secretName: app-env
+      - name: firebase-sakey-volume
+        secret:
+          secretName: firebase-sakey-json
