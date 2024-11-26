@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 
 	firebase "firebase.google.com/go/v4"
 	"firebase.google.com/go/v4/auth" // Este es el paquete correcto para autenticación
@@ -15,6 +16,11 @@ var authClient *auth.Client // Cambiado de firebase.Auth a auth.Client
 
 // InitFirebase inicializa Firebase con el archivo de credenciales
 func InitFirebase() error {
+	// Verificar si el archivo de credenciales existe
+	if _, err := os.Stat("config/serviceAccountKey.json"); os.IsNotExist(err) {
+		return fmt.Errorf("archivo de credenciales no encontrado en: config/serviceAccountKey.json")
+	}
+
 	opt := option.WithCredentialsFile("config/serviceAccountKey.json") // Ruta a tus credenciales
 	app, err := firebase.NewApp(context.Background(), nil, opt)
 	if err != nil {
