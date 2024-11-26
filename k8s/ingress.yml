@@ -10,7 +10,7 @@ spec:
   tls:
   - hosts: 
     - api-descuentos.tssw.info
-    secretName: cert-ulink
+    secretName: cert-back-descuentos
   rules:
     - host: api-descuentos.tssw.info
       http:
