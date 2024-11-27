@@ -8,10 +8,10 @@ import (
 // CORSConfig configura las políticas de CORS
 func CORSConfig() gin.HandlerFunc {
 	return cors.New(cors.Config{
-		AllowOrigins:     []string{"https://descuentos.tssw.info"}, // Dominio del frontend
+		AllowOrigins:     []string{"*"}, // Dominio del frontend
 		AllowMethods:     []string{"GET", "POST", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
-		AllowCredentials: true,
+		AllowCredentials: false,
 	})
 }
